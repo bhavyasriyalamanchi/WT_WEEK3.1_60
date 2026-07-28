@@ -17,8 +17,7 @@
 
 body{
     background:linear-gradient(135deg,#eef2ff,#dbeafe,#ffffff);
-    color:#222;
-    overflow-x:hidden;
+    transition:0.5s;
 }
 
 /* ==========================
@@ -736,4 +735,16 @@ footer p{
 
 }
 
+}
+.active{
+    color:#7c3aed !important;
+    font-weight:bold;
+}
+
+#topBtn:hover{
+    background:#7c3aed !important;
+}
+
+html{
+    scroll-behavior:smooth;
 }
